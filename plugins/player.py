@@ -339,8 +339,8 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/d1b8c412b0873b6fe1abc.png", 
-                             caption="**𝐏𝐚𝐮𝐬𝐞𝐝⏸...**"
+                             photo="https://telegra.ph/file/eeecd41c52e93c067e342.jpg", 
+                             caption="**Hindustani...**"
     )
 
 
@@ -384,8 +384,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/0b166f1606f270afae443.png", 
-                             caption=f'**𝐒𝐊𝐈𝐏𝐄𝐃...**'
+                             photo="https://telegra.ph/file/eeecd41c52e93c067e342.jpg", 
+                             caption=f'**Hindustani...**'
    ) 
 
 
@@ -400,8 +400,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/3602370d14c0d3e6b700c.png", 
-                             caption="**𝐒𝐭𝐨𝐩𝐩𝐞𝐝...**"
+                             photo="https://telegra.ph/file/eeecd41c52e93c067e342.jpg", 
+                             caption="**Hindustani...**"
     )
 
 
@@ -418,6 +418,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png",
-                              caption="**𝐑𝐞𝐥𝐨𝐝𝐞𝐝....**"
+                              photo="https://telegra.ph/file/eeecd41c52e93c067e342.jpg",
+                              caption="**Hindustani....**"
     )
